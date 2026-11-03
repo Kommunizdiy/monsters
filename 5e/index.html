@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico" sizes="16x16 32x32 48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="./brand/khmb-icon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./brand/khmb-icon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./brand/khmb-icon-180.png">
+    <title>Kommy's Handy Monster Builder</title>
+    <!--
+      Счётчик посещений GoatCounter (docs/legal.md, «Счётчик посещений»; решили 23.10): только на открытом сайте
+      (не на localhost и не на monster.local), без cookies. Считается открытие страницы по адресу без части после «#»
+      (там ссылки на сборки) — её браузер на сервер не отправляет, а count.js не берёт.
+    -->
+    <script>
+      if (location.hostname === 'kommunizdiy.github.io') {
+        const s = document.createElement('script')
+        s.async = true
+        s.src = 'https://gc.zgo.at/count.js'
+        s.dataset.goatcounter = 'https://khmb.goatcounter.com/count'
+        document.head.appendChild(s)
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-DIr_GzkM.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/vendor-B6Slx5Pq.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-BvgvO2gQ.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
